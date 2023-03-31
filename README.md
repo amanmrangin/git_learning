@@ -11,11 +11,11 @@
 ### **Settings**
 After git client is installed, run the following commands to the settings which will get added to _<user-home>/.gitconfig_
 
-    `git config color.ui true`
-    `git config format.pretty oneline`
-    `git config --list --show-origin`
-    `git config --global user.name "Your Name"`
-    `git config --global user.email "Your Account ID"`
+    git config color.ui true
+    git config format.pretty oneline
+    git config --list --show-origin
+    git config --global user.name "Your Name"
+    git config --global user.email "Your Account ID"
 
 ### Notes
 By Default, a developer works on a directory AKA Working Directory or Working Tree. e.g.: **_git_learning_**
@@ -114,9 +114,9 @@ To **Merge the code (multiple commits and multiple files) from 'feature_1' branc
     1. ake all commits from 'feature_1' branch, squash them as one single commit and merge them into 'release_X' branch `git merge --squash feature_1`
     2. Resolve all the merge conflicts in local machine if there are any
 - **Commit in Local Machine** 
-    1. Commit the changes to 'release_X' `git commit` in local machine
+    1. Commit the changes to 'release_X': `git commit`
 - **Push changes from Local to Remote**
-    1.`git push`
+    1.  `git push`
 - **Verify** the commit history on the remote 'release_X' branch
 
 
