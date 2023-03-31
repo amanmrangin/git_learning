@@ -1,6 +1,6 @@
 # Git Learning
 
-### **Installation**
+## **Installation**
 - Install [Git Client](https://git-scm.com/download/win), launch 'Git Bash' tool, and run
 
   `git --version`
@@ -8,7 +8,7 @@
 - Install Git Tools such as _GitKraken_, _SourceTree_ or [_GitHubDeskTop_](https://desktop.github.com/)
     - Create a free account at [GitHub](www.github.com) to create and manage your personal repositories
 
-### **Settings**
+## **Settings**
 After git client is installed, run the following commands to the settings which will get added to _<user-home>/.gitconfig_
 
     git config color.ui true
@@ -17,12 +17,13 @@ After git client is installed, run the following commands to the settings which 
     git config --global user.name "Your Name"
     git config --global user.email "Your Account ID"
 
-### Notes
+## Notes
 By Default, a developer works on a directory AKA Working Directory or Working Tree. e.g.: **_git_learning_**
-
 ![img_1.png](img_1.png)
-
-### Initialize/Create/Add/Remove Commands
+![img_3.png](img_3.png)
+Note that **.git** directory is created under 'git_learning' WorkingTree,
+## Initialize/Create/Add/Remove Commands
+***
 To **create (initiate) a new Git Repository** in Local machine: It will create '.git' directory under WorkingTree/Directory
 
 `git init`
@@ -51,7 +52,9 @@ To **Stage all (added, modified, deleted) files from the current WorkingTree**
 
 `git add -A` (git add --all)
 
-### Commit commands
+## Commit commands
+***
+
 To **Commit all the Staged files in Local Repo**
 
 `git commit -m "Commit Message Here"`
@@ -62,7 +65,8 @@ To **Stage all (added, modified and deleted) files and commit**
 
 `git add -A && git commit -m "Commit Message here"`
 
-### Push commands (To push all changes to from local repo to Remote repo)
+## Push commands (To push all changes to from local repo to Remote repo)
+***
 To **Push the committed files from Local Repo to Remote Rep**
 
 `git push`
@@ -78,7 +82,8 @@ To **Modify the comment of last commit and push into remote repo**
  - Push the change Forcefully to remote branch
  `git push --force origin <remote branch name>`
 
-### Undo/Restore/Revert
+## Undo/Restore/Revert
+***
 To **Undo most recent commit**
 
 `git reset HEAD~1`
@@ -100,8 +105,8 @@ To **Remove all the local changes and reset to local Head**
 
 `git reset --hard HEAD`
 
-
-### Squash and Merge (Multiple Commits of one branch as one large commit into another branch)
+## Squash and Merge (Multiple Commits of one branch as one large commit into another branch)
+***
 To **Merge the code (multiple commits and multiple files) from 'feature_1' branch into 'release_X' branch**
 
 **Assumptions**: No other developer is working on these 2 branches while you are merging in your local machine
@@ -121,7 +126,7 @@ To **Merge the code (multiple commits and multiple files) from 'feature_1' branc
 
 
 
-#### Additional Materials
+## Additional Materials
 - [Git for beginners: The definitive practical guide](https://stackoverflow.com/q/315911/12860895)
 - [Resources to learn Git](https://try.github.io/)
 - [Learn Git Branching](https://learngitbranching.js.org/)
