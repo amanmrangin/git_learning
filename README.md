@@ -101,9 +101,23 @@ To **Remove all the local changes and reset to local Head**
 `git reset --hard HEAD`
 
 
-### Merge 
+### Squash and Merge (Multiple Commits of one branch as one large commit into another branch)
+To **Merge the code (multiple commits and multiple files) from 'feature_1' branch into 'release_X' branch**
 
+**Assumptions**: No other developer is working on these 2 branches while you are merging in your local machine
+- **Prepare in Local machine**
+    1. Verify that 'feature_1' branch in local machine does NOT have any changes
+    2. Pull all the changes from remote 'feature_1' branch to local machine: `git checkout feature_1 && git pull && git status -sb`
+    3. Switch your local workspace to target (relase_X) branch:   `git checkout release_X && git pull && git status -sb`
 
+- **Merge in Local machine**
+    1. ake all commits from 'feature_1' branch, squash them as one single commit and merge them into 'release_X' branch `git merge --squash feature_1`
+    2. Resolve all the merge conflicts in local machine if there are any
+- **Commit in Local Machine** 
+    1. Commit the changes to 'release_X' `git commit` in local machine
+- **Push changes from Local to Remote**
+    1.`git push`
+- **Verify** the commit history on the remote 'release_X' branch
 
 
 
