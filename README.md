@@ -2,12 +2,14 @@
 
 ### **Installation**
 - Install [Git Client](https://git-scm.com/download/win), launch 'Git Bash' tool, and run
-`git --version`
-![img.png](img.png)
+
+  `git --version`
+
 - Install Git Tools such as _GitKraken_, _SourceTree_ or [_GitHubDeskTop_](https://desktop.github.com/)
     - Create a free account at [GitHub](www.github.com) to create and manage your personal repositories
+
 ### **Settings**
-- After git client is installed, run the following commands to the settings.
+After git client is installed, run the following commands to the settings which will get added to _<user-home>/.gitconfig_
 
     `git config color.ui true`
     `git config format.pretty oneline`
@@ -20,7 +22,7 @@ By Default, a developer works on a directory AKA Working Directory or Working Tr
 
 ![img_1.png](img_1.png)
 
-### Commands
+### Initialize/Create/Add/Remove Commands
 To **create (initiate) a new Git Repository** in Local machine: It will create '.git' directory under WorkingTree/Directory
 
 `git init`
@@ -49,6 +51,7 @@ To **Stage all (added, modified, deleted) files from the current WorkingTree**
 
 `git add -A` (git add --all)
 
+### Commit commands
 To **Commit all the Staged files in Local Repo**
 
 `git commit -m "Commit Message Here"`
@@ -59,6 +62,7 @@ To **Stage all (added, modified and deleted) files and commit**
 
 `git add -A && git commit -m "Commit Message here"`
 
+### Push commands (To push all changes to from local repo to Remote repo)
 To **Push the committed files from Local Repo to Remote Rep**
 
 `git push`
@@ -74,6 +78,7 @@ To **Modify the comment of last commit and push into remote repo**
  - Push the change Forcefully to remote branch
  `git push --force origin <remote branch name>`
 
+### Undo/Restore/Revert
 To **Undo most recent commit**
 
 `git reset HEAD~1`
@@ -81,6 +86,23 @@ To **Undo most recent commit**
 To **Revert to specific commit**
 
 `git revert <SHACODE>`
+
+To **Hard Reset the local branch to look like Remote branch**
+
+`git fetch origin && git reset --hard origin/<remote-branch-name> && git pull && git status -sb` 
+
+OR  
+
+`git clean -d -i -f && git reset --hard origin/<remote-branch-name>`
+
+
+To **Remove all the local changes and reset to local Head**
+
+`git reset --hard HEAD`
+
+
+### Merge 
+
 
 
 
