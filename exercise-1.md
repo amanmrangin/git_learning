@@ -8,8 +8,9 @@
       `git pull`
    - **Fetch** all the existing branches from remote repo into local WorkingDirectory
      `git fetch`
-   -  View all the available remote branches of the repo: `git branch -r`
-   ![img_9.png](img_9.png). 
+     -  View all the available remote branches of the repo: `git branch -r`
+     
+     ![img_9.png](img_9.png). 
    - Notice that there 4 branches available in remote repo
       
      - **main**
@@ -23,7 +24,8 @@
 #### Add a new file (never exist in git)
 1. Navigate to existing directory: `cd exercise-1`
    -  Verify the status by running `git status -sb` 
-   ![img_5.png](img_5.png)
+   
+      ![img_5.png](img_5.png)
 
 2. Create a new file (file1.txt) with any editor your choice or command (e.g nano file1.txt):
    `nano file1.txt`
@@ -37,12 +39,14 @@
 
    - The above command has added a **new** untracked/un-versioned file (file1.txt) from local _exercise-1_ directory to local git repo stage directory (<project-root-dir>/.git/index)
    - Verify the status by running `git status -sb` 
+   
    ![img_4.png](img_4.png)
    - Notice that **_A_** before _file1.txt_ indicates that file is **A**dded to Git Index (<project-root-dir>/.git/index) for tracking/versioning
 
 4. Remove (untracked/un-versioned) a newly added (tracked/versioned) file 'file1.txt' from local git Stage(Index), (<project-root-dir>/.git/index):
    `git reset file1.txt`
    - Verify the status by running `git status -sb` 
+   
    ![img_7.png](img_7.png)
    - Notice that **_??_** before _file1.txt_ indicates that _file1.txt_ is a new file and untracked by Git
 
