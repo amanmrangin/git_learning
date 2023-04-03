@@ -3,7 +3,9 @@
 ## **Installation**
 - Install [Git Client](https://git-scm.com/download/win), launch 'Git Bash' tool, and run
 
-  `git --version`
+  `git --version` 
+  
+  _Output:_ git version 2.39.2.windows.1
 
 - Install Git Tools such as _GitKraken_, _SourceTree_ or [_GitHubDeskTop_](https://desktop.github.com/)
     - Create a free account at [GitHub](www.github.com) to create and manage your personal repositories
@@ -30,7 +32,7 @@ To **create (initiate) a new Git Repository** in Local machine: It will create '
 
 ![img_2.png](img_2.png)
 
-To **Uninitialize (remove) a Git Repo** in Local machine, navigate to repo directory (e.g. cd /...../.../workindir/)
+To **Uninitialize (remove) a Git Repo** in Local machine, navigate to repo directory (e.g. cd /...../.../workingdirORTree/)
    
  `rm -rf .git`
 
