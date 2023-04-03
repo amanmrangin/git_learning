@@ -9,7 +9,10 @@
 3. Add a new (untracked/unversioned by Git) 'file1.txt' from Working Directory (Working Tree) to local git Stage(Index)
    `git add file1.txt`
    
-   The above command has added a **new** untracked/unversioned file (file1.txt) from local _exercise-1_ directory to local git repo stage directory (/.git/index)
-   Verify the output by running `git status -sb` ![img_4.png](img_4.png)
-4. Remove a newly added file 'file1.txt' from local git Stage(Index), (/.git/index)
+   - The above command has added a **new** untracked/unversioned file (file1.txt) from local _exercise-1_ directory to local git repo stage directory (<project-root-dir>/.git/index)
+   - Verify the output by running `git status -sb` ![img_4.png](img_4.png)
+   - Notice that **_A_** before _file1.txt_ indicates that file is **A**dded to Git Index (<project-root-dir>/.git/index) for tracking/versioning it and a
+
+4. Remove a newly added (tracked/versioned) file 'file1.txt' from local git Stage(Index), (<project-root-dir>/.git/index): `git reset file1.txt`
+
     
