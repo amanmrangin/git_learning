@@ -6,6 +6,10 @@
      `git clone https://github.com/amanmrangin/git_learning.git`
    -  **Pull** all the changes from 'main' branch of remote repo into local WorkingDirectory
       `git pull`
+   - **Fetch** all the existing branches from remote repo into local WorkingDirectory
+     `git fetch`
+   -  View all the available remote branches of the repo: `git branch -r`![img_9.png](img_9.png)
+   
    -  Ignore the structure of other files/folders, focus only on 'exercise-1' directory where the following git operations will be performed.  The current structure of 'git_learning\exercise_1' directory looks like below ![img_8.png](img_8.png)
    - Notice that there are already 3 files available in remote repository under 'main' branch
 
