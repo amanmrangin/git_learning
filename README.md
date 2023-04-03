@@ -40,13 +40,13 @@ To **download/clone an existing remote Git Repo**
 
  e.g.: `git clone  https://github.com/<accoutname>/<reponame>.git>`
 
-To **Stage only one file from the current WorkingTree**
+To **Add a change in the WorkingTree(Working Directory) to Git's Stage(Index)**
 
 `git add <filename>` 
 
 To **Remove a file from Stage(Index)**
 
-`git rm --cached <filename>`  or `git restore --staged <filename>`
+`git reset .` OR `git rm --cached <filename>` OR `git rm -r --cached <filename>` OR  `git restore --staged <filename>`
 
 To **Stage all (added, modified, deleted) files from the current WorkingTree**
 
