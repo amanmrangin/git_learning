@@ -61,3 +61,14 @@ Let's get into practicing now!
 
 5. 
     
+   
+###  Merge Commands
+   #### Merge 'main' or 'master' branches change into a 'feature' branch
+   - Ensure local developer machine has the latest **main** or **master** branch
+   `git checkout main` && `git pull`
+   - Ensure local developer machine has the latest *feature1_branch* branch
+   `git checkout feature1_branch`
+   - Merge the local **feature1_branch** with local **main** branch
+   `git merge main`
+   - Push the local **feature1_branch** to remote **feature1_branch
+   `git push`
