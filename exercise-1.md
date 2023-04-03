@@ -30,8 +30,9 @@ Let's get into practicing now!
 1. **Switch** to work on _dev1_feature_1_ branch, **Pull** the code, and verify the **Status**
    `git checkout dev1_feature_1 && git pull && git status -sb`
 
-2. 
-1. Navigate to existing directory: `cd exercise-1`
+2. Navigate to existing directory: `cd exercise-1`, Create a new (untracked/un-versioned) file
+
+4. Navigate to existing directory: `cd exercise-1`
    -  Verify the status by running `git status -sb` 
    
       ![img_5.png](img_5.png)
