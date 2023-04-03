@@ -1,4 +1,4 @@
-# Practice Git
+# Practice Git Commands
 
 ## **Clone a branch of a remote Git repository into local machine**
 1. Clone the 'main' branch from remote git repo, [git_learning](https://github.com/amanmrangin/git_learning/) into
