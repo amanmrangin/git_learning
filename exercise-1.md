@@ -9,6 +9,7 @@
    - **Fetch** all the existing branches from remote repo into local WorkingDirectory
      `git fetch`
      -  View all the available remote branches of the repo: `git branch -r`
+     
           ![img_9.png](img_9.png). 
    - Notice that there 4 branches available in remote repo
       
@@ -46,7 +47,7 @@
    `git reset file1.txt`
    - Verify the status by running `git status -sb` 
    
-   ![img_7.png](img_7.png)
+     ![img_7.png](img_7.png)
    - Notice that **_??_** before _file1.txt_ indicates that _file1.txt_ is a new file and untracked by Git
 
 5. 
