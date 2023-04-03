@@ -67,8 +67,8 @@ Let's get into practicing now!
    - Ensure local developer machine has the latest **main** or **master** branch
    `git checkout main` && `git pull`
    - Ensure local developer machine has the latest *feature1_branch* branch
-   `git checkout feature1_branch`
+   `git checkout feature1_branch` && `git pull`
    - Merge the local **feature1_branch** with local **main** branch
    `git merge main`
-   - Push the local **feature1_branch** to remote **feature1_branch
+   - Compare the changes and resolve the conflicts before Pushing the local **feature1_branch** to remote **feature1_branch
    `git push`
