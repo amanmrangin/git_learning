@@ -26,7 +26,7 @@
 
 Let's get into practicing now!
    
-###  As a developer1
+###  As a developer1 work on 'dev1_feature_1' branch
 1. **Switch** to work on _dev1_feature_1_ branch, **Pull** the code, and verify the **Status**
    `git checkout dev1_feature_1 && git pull && git status -sb`
 
