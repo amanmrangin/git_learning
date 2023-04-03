@@ -8,9 +8,15 @@
       `git pull`
    - **Fetch** all the existing branches from remote repo into local WorkingDirectory
      `git fetch`
-   -  View all the available remote branches of the repo: `git branch -r`![img_9.png](img_9.png)
+   -  View all the available remote branches of the repo: `git branch -r`![img_9.png](img_9.png). 
+   - Notice that there 4 branches available in remote repo
+      
+     - **main**
+       -    |--**dev1_feature_1** (Created for a developer1 to work only on _Feature_1_)
+       -    |--**dev2_feature_2** (Created for a developer2 to work only on _Feature_2_)
+       -    |--**release_1** (Created to have both _Feature_1_ and _Feature_2_ merged for the _Release_1_)
    
-   -  Ignore the structure of other files/folders, focus only on 'exercise-1' directory where the following git operations will be performed.  The current structure of 'git_learning\exercise_1' directory looks like below ![img_8.png](img_8.png)
+   -  Ignore the structure of other files/folders, focus only on 'git_learning/exercise-1/' directory where the following git operations will be performed.  The current structure of 'git_learning\exercise_1' directory looks like below ![img_8.png](img_8.png)
    - Notice that there are already 3 files available in remote repository under 'main' branch
 
 #### Add a new file (never exist in git)
