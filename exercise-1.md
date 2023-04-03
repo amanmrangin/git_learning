@@ -1,4 +1,4 @@
-#### Clone a branch of a remote Git repository into local machine
+### Clone a branch of a remote Git repository into local machine
 1. Clone the 'main' branch from remote git repo, [git_learning](https://github.com/amanmrangin/git_learning/) into
    - Open *Git Bash* app, Navigate to any working directory (e.g: IdeaProjects) of your choice in your local machine.
      ` cd ~/IdeaProjects/`
@@ -18,10 +18,11 @@
        -    |--**dev2_feature_2** (Created for a developer2 to work only on _Feature_2_)
        -    |--**release_1** (Created to have both _Feature_1_ and _Feature_2_ merged for the _Release_1_)
    
-   -  Ignore the structure of other files/folders, focus only on 'git_learning/exercise-1/' directory where the following git operations will be performed.  The current structure of 'git_learning\exercise_1' directory looks like below ![img_8.png](img_8.png)
+   -  Ignore the structure of other files/folders, focus only on 'git_learning/exercise-1/' directory where the following git operations will be performed.  The current structure of 'git_learning\exercise_1' directory looks like below 
+      ![img_8.png](img_8.png)
    - Notice that there are already 3 files available in remote repository under 'main' branch
 
-#### Add a new file (never exist in git)
+### Add a new file (never exist in git)
 1. Navigate to existing directory: `cd exercise-1`
    -  Verify the status by running `git status -sb` 
    
