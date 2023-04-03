@@ -1,5 +1,6 @@
 #### Add a new file (never exist in git)
 1. Navigate to existing directory: `cd exercise-1`
+   -   Verify the output by running `git status -sb` ![img_5.png](img_5.png)
 2. Create a new file (file1.txt) with any editor your choice or command (e.g nano file1.txt):
    `nano file1.txt`
    - Add a new line: "_This is line 1 of file1.txt_" and close the file1.txt 
