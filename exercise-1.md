@@ -81,3 +81,30 @@ Let's get into practicing now!
    `git merge main`
    - Compare the changes and resolve the conflicts before Pushing the local **dev1_feature_1** to remote **feature1_branch
    `git push`
+
+  ### Squash and Merge (Multiple Commits of one branch as one large commit into another branch)
+***
+To **Merge the code (multiple commits and multiple files) from 'dev_feature_1' branch into 'release_1' branch**
+
+**Assumptions**: No other developer is working on these 2 branches while you are merging in your local machine
+- **Prepare in Local machine**
+    1. Verify that 'dev_feature_1' branch in local machine does NOT have any changes
+    2. Pull all the changes from remote 'dev_feature_1' branch to local machine: `git checkout dev_feature_1 && git pull && git status -sb`
+    3. Switch your local workspace to target (release_1) branch:   `git checkout release_1 && git pull && git status -sb`
+
+- **Merge in Local machine**
+    1. ake all commits from 'dev_feature_1' branch, squash them as one single commit and merge them into 'release_1' branch `git merge --squash dev_feature_1`
+    2. Resolve all the merge conflicts in local machine if there are any
+- **Commit in Local Machine**
+    1. Commit the changes to 'release_1': `git commit`
+- **Push changes from Local to Remote**
+    1.  `git push`
+- **Verify** the commit history on the remote 'release_1' branch
+
+
+
+## Additional Materials
+- [Git for beginners: The definitive practical guide](https://stackoverflow.com/q/315911/12860895)
+- [Resources to learn Git](https://try.github.io/)
+- [Learn Git Branching](https://learngitbranching.js.org/)
+- [Explain Git With D3](https://onlywei.github.io/explain-git-with-d3)
