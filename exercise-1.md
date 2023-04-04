@@ -51,6 +51,13 @@ Let's get into practicing now!
     `rm -rf r_file_b.txt`
     `git status -sb`
 
+    ![img_13.png](img_13.png)
+8.  Notice that
+    - **A** indicates that a new file is being added (staged/index) and tracked by git
+    - **??** indicates that a new file is being added to WorkingDirectory, not added (staged/index) and tracked by Git
+    - **M** indicates that an existing remote file is being modified in local repo
+    - **D** indicates that an existing remote file is being deleted in local repo
+
 1. Navigate to existing directory: `cd exercise-1`
    -  Verify the status by running `git status -sb` 
    
