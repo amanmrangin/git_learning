@@ -26,11 +26,18 @@
 
 Let's get into practicing now!
    
-###  As a developer1
+###  As a developer1, work on 'dev1_feature_1' branch to implement a feature
 1. **Switch** to work on _dev1_feature_1_ branch, **Pull** the code, and verify the **Status**
    `git checkout dev1_feature_1 && git pull && git status -sb`
 
-2. 
+2. Create a new file, file4.txt, and add the following text, "This is line 1 of file4", save/close the file.
+
+3. Verify that 'file4.txt' is a new file that is Untracked/Un-versioned (**??**)
+    `git staus -sb`
+
+4.  
+
+
 1. Navigate to existing directory: `cd exercise-1`
    -  Verify the status by running `git status -sb` 
    
