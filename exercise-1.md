@@ -76,9 +76,9 @@ Let's get into practicing now!
    #### Merge 'main' or 'master' branches change into a 'feature' branch
    - Ensure local developer machine has the latest **main** or **master** branch
    `git checkout main` && `git pull`
-   - Ensure local developer machine has the latest *feature1_branch* branch
+   - Ensure local developer machine has the latest *dev1_feature_1* branch
    `git checkout feature1_branch` && `git pull`
-   - Merge the local **feature1_branch** with local **main** branch
+   - Merge the local **dev1_feature_1** with local **main** branch
    `git merge main`
-   - Compare the changes and resolve the conflicts before Pushing the local **feature1_branch** to remote **feature1_branch
+   - Compare the changes and resolve the conflicts before Pushing the local **dev1_feature_1** to remote **feature1_branch
    `git push`
