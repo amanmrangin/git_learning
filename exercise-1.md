@@ -32,10 +32,13 @@ Let's get into practicing now!
 
 2. Create a new file, file4.txt, and add the following text, "This is line 1 of file4", save/close the file.
 
-3. Verify that 'file4.txt' is a new file that is Untracked/Un-versioned (**??**)
+3. Verify that 'file4.txt' is a new file that is Untracked/Un-versioned (**??**) means not being added to Stage (index) of Git
     `git staus -sb`
+ 
+    ![img_10.png](img_10.png)
 
-4.  
+4.  Create a new file, file5.txt, and add the following text, "This is line 1 of file5", save/close the file, and add to Stage(index)
+  `git add file5.txt`
 
 
 1. Navigate to existing directory: `cd exercise-1`
