@@ -43,7 +43,13 @@ Let's get into practicing now!
 
     ![img_11.png](img_11.png)
 
-6. Modify the existing 'r_file_1.txt': Open 'r_file_1.txt' and update
+6. Modify the existing 'r_file_a.txt': Open 'r_file_a.txt', and Save and Close the file. 
+
+   ![img_12.png](img_12.png)
+
+7. Delete an existing 'r_file_b.txt': Remove the file 'r_file_b.txt'. Verify the Status.
+    `rm -rf r_file_b.txt`
+    `git status -sb`
 
 1. Navigate to existing directory: `cd exercise-1`
    -  Verify the status by running `git status -sb` 
