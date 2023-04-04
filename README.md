@@ -190,7 +190,7 @@ Let's get into practicing now!
    `git checkout main` && `git pull`
    - Ensure local developer machine has the latest *dev1_feature_1* branch
    `git checkout feature1_branch` && `git pull`
-   - Merge the local **dev1_feature_1** with local **main** branch
+   - Merge the local **dev1_feature_1** with local **main** branch 
    `git merge main`
    - Compare the changes and resolve the conflicts before Pushing the local **dev1_feature_1** to remote **feature1_branch
    `git push`
