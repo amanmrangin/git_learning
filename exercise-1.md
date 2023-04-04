@@ -52,6 +52,12 @@ Let's get into practicing now!
     `git status -sb`
 
     ![img_13.png](img_13.png)
+
+8. Create a new 'file6.txt', add some content, and add to Stage(index) of Git, and commit to local git repo.
+    `git add file6.txt` and `git commit file6.txt`
+
+9. Add 
+
 8.  Notice that
     - **A** indicates that a new file is being added (staged/index) and tracked by git
     - **??** indicates that a new file is being added to WorkingDirectory, not added (staged/index) and tracked by Git
