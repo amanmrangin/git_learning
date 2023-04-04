@@ -176,10 +176,14 @@ Let's get into practicing now!
 
 ![img_16.png](img_16.png)
 
-## **Restore or Reset Commands**
-    
-   
-
+## **Restore (undo), Reset or Revert Commands**
+   - Git Restore: Restore(undo) the files in Working Directory: `git restore <filename> will remove the modifications
+   - Git Reset: Rollbacks the changes in local Working Directory to specific commit. [Read more](https://opensource.com/article/18/6/git-reset-revert-rebase-commands)
+      - `git reset <SHA1>`
+      - Hard Reset: To Reset/Orvewrites all the contents of local (local repository, local staging/index area and local working directory) to the remote, `git reset --hard <remote branch name> ` OR `git reset --hard <SHA1Code>` OR `git reset --hard HEAD`
+   - Git Revert: Adds a new commit to the history. `git revert HEAD` or `git revert <SHA1Code>`.  NOTE: Use _Revert_ if already commits are already pushed to remote repository and other developers may have pulled the code.
+  
+  
 ##  **Merge Commands**
    ### Merge 'main' or 'master' branches change into a 'feature' branch
    - Ensure local developer machine has the latest **main** or **master** branch
