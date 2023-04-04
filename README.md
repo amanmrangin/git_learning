@@ -107,7 +107,7 @@ To **Remove all the local changes and reset to local Head**
 
 `git reset --hard HEAD`
 
-# Practice Git Commands
+# Practice Git Commands on existing Repository
 
 ## **Clone a branch of a remote Git repository into local machine**
 1. Clone the 'main' branch from remote git repo, [git_learning](https://github.com/amanmrangin/git_learning/) into
