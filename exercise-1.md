@@ -56,13 +56,15 @@ Let's get into practicing now!
 8. Create a new 'file6.txt', add some content, and add to Stage(index) of Git, and commit to local git repo.
     `git add file6.txt` and `git commit file6.txt`
 
-9. Add 
+9 Run `git status -sb` and notice the output
 
-8.  Notice that
-    - **A** indicates that a new file is being added (staged/index) and tracked by git
-    - **??** indicates that a new file is being added to WorkingDirectory, not added (staged/index) and tracked by Git
-    - **M** indicates that an existing remote file is being modified in local repo
-    - **D** indicates that an existing remote file is being deleted in local repo
+    -  **A** indicates that a new file is being added (staged/index) and tracked by git
+    -  **??** indicates that a new file is being added to WorkingDirectory, not added (staged/index) and tracked by Git
+    -  **M** indicates that an existing remote file is being modified in local repo
+    -  **D** indicates that an existing remote file is being deleted in local repo
+10. Run `git status and notice the output
+    
+![img_14.png](img_14.png)
 
 1. Navigate to existing directory: `cd exercise-1`
    -  Verify the status by running `git status -sb` 
