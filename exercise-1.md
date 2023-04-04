@@ -57,7 +57,7 @@ Let's get into practicing now!
     `git add file6.txt` and `git commit file6.txt`
 
 9 Run `git status -sb` and notice the output
-    ![img_15.png](img_15.png)
+   ![img_18.png](img_18.png)
 
      **A** indicates that a new file is being added (staged/index) and tracked by git
      **??** indicates that a new file is being added to WorkingDirectory, not added (staged/index) and tracked by Git
@@ -65,8 +65,7 @@ Let's get into practicing now!
      **D** indicates that an existing remote file is being deleted in local repo
 
 10. Run `git status` and notice the output
-    
-![img_14.png](img_14.png)
+    ![img_19.png](img_19.png)
 
 
 ### Restore or Reset Commands
