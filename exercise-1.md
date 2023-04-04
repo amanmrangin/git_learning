@@ -57,44 +57,19 @@ Let's get into practicing now!
     `git add file6.txt` and `git commit file6.txt`
 
 9 Run `git status -sb` and notice the output
+    ![img_15.png](img_15.png)
 
-    -  **A** indicates that a new file is being added (staged/index) and tracked by git
-    -  **??** indicates that a new file is being added to WorkingDirectory, not added (staged/index) and tracked by Git
-    -  **M** indicates that an existing remote file is being modified in local repo
-    -  **D** indicates that an existing remote file is being deleted in local repo
-10. Run `git status and notice the output
+     **A** indicates that a new file is being added (staged/index) and tracked by git
+     **??** indicates that a new file is being added to WorkingDirectory, not added (staged/index) and tracked by Git
+     **M** indicates that an existing remote file is being modified in local repo
+     **D** indicates that an existing remote file is being deleted in local repo
+
+10. Run `git status` and notice the output
     
 ![img_14.png](img_14.png)
 
-1. Navigate to existing directory: `cd exercise-1`
-   -  Verify the status by running `git status -sb` 
-   
-      ![img_5.png](img_5.png)
 
-2. Create a new file (file1.txt) with any editor your choice or command (e.g nano file1.txt):
-   `nano file1.txt`
-   - Add a new line: "_This is line 1 of file1.txt_" and close the file1.txt
-   - Verify the status by running `git status -sb` 
-  
-     ![img_6.png](img_6.png)
-   - Notice that **_??_** before _file1.txt_ indicates that _file1.txt_ is a new file and untracked by Git
-
-3. Add a new (untracked/un-versioned by Git) 'file1.txt' from Working Directory (Working Tree) to local git Stage(Index)
-   `git add file1.txt`
-
-   - The above command has added a **new** untracked/un-versioned file (file1.txt) from local _exercise-1_ directory to local git repo stage directory (<project-root-dir>/.git/index)
-   - Verify the status by running `git status -sb` 
-      ![img_4.png](img_4.png)
-   - Notice that **_A_** before _file1.txt_ indicates that file is **A**dded to Git Index (<project-root-dir>/.git/index) for tracking/versioning
-
-4. Remove (untracked/un-versioned) a newly added (tracked/versioned) file 'file1.txt' from local git Stage(Index), (<project-root-dir>/.git/index):
-   `git reset file1.txt`
-   - Verify the status by running `git status -sb` 
-   
-     ![img_7.png](img_7.png)
-   - Notice that **_??_** before _file1.txt_ indicates that _file1.txt_ is a new file and untracked by Git
-
-5. 
+### Restore or Reset Commands
     
    
 ###  Merge Commands
