@@ -37,9 +37,13 @@ Let's get into practicing now!
  
     ![img_10.png](img_10.png)
 
-4.  Create a new file, file5.txt, and add the following text, "This is line 1 of file5", save/close the file, and add to Stage(index)
+4.  Create a new file, file5.txt, and add the following text, "This is line 1 of file5", save/close the file.
   `git add file5.txt`
+5.  Add 'file5.txt' to Stage(index) of Git. Notice that **A** before file5.txt indicates that the file is being tracked/versioned by Git
 
+    ![img_11.png](img_11.png)
+
+6. Modify the existing 'r_file_1.txt': Open 'r_file_1.txt' and update
 
 1. Navigate to existing directory: `cd exercise-1`
    -  Verify the status by running `git status -sb` 
