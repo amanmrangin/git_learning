@@ -26,7 +26,7 @@
 
 Let's get into practicing now!
    
-###  As a developer1, work on 'dev1_feature_1' branch to implement a feature
+### **As a developer1, work on 'dev1_feature_1' branch to implement a feature**
 1. **Switch** to work on _dev1_feature_1_ branch, **Pull** the code, and verify the **Status**
    `git checkout dev1_feature_1 && git pull && git status -sb`
 
@@ -67,10 +67,11 @@ Let's get into practicing now!
 
 ![img_16.png](img_16.png)
 
-### Restore or Reset Commands
+### **Restore or Reset Commands**
     
    
-###  Merge Commands
+
+###  **Merge Commands**
    #### Merge 'main' or 'master' branches change into a 'feature' branch
    - Ensure local developer machine has the latest **main** or **master** branch
    `git checkout main` && `git pull`
