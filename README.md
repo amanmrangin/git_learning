@@ -110,7 +110,7 @@ To **Remove all the local changes and reset to local Head**
 # Practice Git Commands on existing Repository
 
 ## **Clone a branch of a remote Git repository into local machine**
-1. Clone the 'main' branch from remote git repo, [git_learning](https://github.com/amanmrangin/git_learning/) into
+1. Clone the 'main' branch from remote git repo, [git_learning](https://github.com/amanmrangin/git_learning/) into local developer machine
    - Open *Git Bash* app, Navigate to any working directory (e.g: IdeaProjects) of your choice in your local machine.
      ` cd ~/IdeaProjects/`
    - **Clone** the remote repo into local WorkingDirectory or WorkingTree
