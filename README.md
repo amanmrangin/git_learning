@@ -231,10 +231,10 @@ To **Merge the code (multiple commits and multiple files) from 'dev_feature_1' b
   - A 'feature_1' branch was already created off of 'main' branch
   - Developer-A has commited many changes to 'origin/feature_1' branch
   - Developer-A noticed that Developer-B has committed many chnages into 'origin/main' branch
-  - Developer-A can get all the ;ates changes of 'origin/main' into 'origin/feature_1' with **rebase** technique: 
+  - Developer-A can get all the latest changes of 'origin/main' into 'origin/feature_1' with **rebase** technique: 
      - In local machine:
        - Fetch all the branches into local machine: `git fetch`
-        - Assuming there are no local changes, `git checkout feature_1` and `git rebase main`
+        - Assuming there are no local changes, `git checkout feature_1` and `git rebase main` and `git push`
    
   
 ### Git Cherrypick (Pick commit from one branch and apply to another branch)
