@@ -87,7 +87,7 @@ To **Modify the comment of last commit and push into remote repo**
   
   - Modify **(add a new file) to the last commit**
   
-    a. Add the file: `git add <filename>
+    a. Add the file: `git add <filename>`
   
     b. Amend the last commit with **same message** :  `git commit --amend --no-edit`
   
