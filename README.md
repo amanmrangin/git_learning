@@ -16,8 +16,11 @@ After git client is installed, run the following commands to the settings which 
     git config color.ui true
     git config format.pretty oneline
     git config --list --show-origin
+    git config --global --unset user.password
     git config --global user.name "Your Name"
     git config --global user.email "Your Account ID"
+    git config --global core.autocrlf true
+    
 
 ## Notes
 By Default, a developer works on a directory AKA Working Directory or Working Tree. e.g.: **_git_learning_**
@@ -230,3 +233,8 @@ To **Merge the code (multiple commits and multiple files) from 'dev_feature_1' b
 - [Resources to learn Git](https://try.github.io/)
 - [Learn Git Branching](https://learngitbranching.js.org/)
 - [Explain Git With D3](https://onlywei.github.io/explain-git-with-d3)
+- [Git Imersion](https://gitimmersion.com)
+- [Git Cheatsheet](http://ndpsoftare.com/git-cheatsheet.html)
+- [Lean Git Branching](http://pcottle.github.io/learnGitBranching)
+- [Visual Git Guide](https://marklodato.github.io/visual-git-guide/index-en.html)
+- [GitHub Training](https://training.github.com/downloads/github-git-cheat-sheet.pdf)
