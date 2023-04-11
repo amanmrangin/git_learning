@@ -245,7 +245,9 @@ To **Merge the code (multiple commits and multiple files) from 'dev_feature_1' b
           - Fetch all branches:  `git fetch`
           - work on 'main' branch: `git checkout main`
           - Cherry Pick a specific commit (A123456B) of branch (e.g.: feature_1): `git cherry-pick A123456B`
-            
+### Gig Log
+    - To view the detailed log with graph: `git log --graph --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%an%C(reset)%C(bold yellow)%d%C(reset) %C(dim white)- %s%C(reset)' --all`
+    
 
 ## Additional Materials
 - [Git for beginners: The definitive practical guide](https://stackoverflow.com/q/315911/12860895)
