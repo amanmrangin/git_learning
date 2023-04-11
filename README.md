@@ -226,7 +226,15 @@ To **Merge the code (multiple commits and multiple files) from 'dev_feature_1' b
     1.  `git push`
 - **Verify** the commit history on the remote 'release_1' branch
 
-
+  ### Git Cherrypick (Pick commit from one branch and apply to another branch)
+  
+    - To commit (A123456B) from 'feature_1' to 'main' branch:
+  
+      a. In local machine,
+          - Fetch all branches:  `git fetch`
+          - work on 'main' branch: `git checkout main`
+          - Cherry Pick a specific commit (A123456B) of branch (e.g.: feature_1): `git cherry-pick A123456B`
+            
 
 ## Additional Materials
 - [Git for beginners: The definitive practical guide](https://stackoverflow.com/q/315911/12860895)
