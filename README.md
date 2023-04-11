@@ -238,15 +238,14 @@ To **Merge the code (multiple commits and multiple files) from 'dev_feature_1' b
    
   
 ### Git Cherrypick (Pick commit from one branch and apply to another branch)
-  
-    - To commit (A123456B) from 'feature_1' to 'main' branch:
+  - To commit (A123456B) from 'feature_1' to 'main' branch:
   
       a. In local machine,
           - Fetch all branches:  `git fetch`
           - work on 'main' branch: `git checkout main`
           - Cherry Pick a specific commit (A123456B) of branch (e.g.: feature_1): `git cherry-pick A123456B`
-### Gig Log
-    - To view the detailed log with graph: `git log --graph --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%an%C(reset)%C(bold yellow)%d%C(reset) %C(dim white)- %s%C(reset)' --all`
+### Gig Log  
+  - To view the detailed log with graph: `git log --graph --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%an%C(reset)%C(bold yellow)%d%C(reset) %C(dim white)- %s%C(reset)' --all`
     
 
 ## Additional Materials
