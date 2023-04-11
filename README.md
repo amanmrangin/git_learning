@@ -226,7 +226,7 @@ To **Merge the code (multiple commits and multiple files) from 'dev_feature_1' b
     1.  `git push`
 - **Verify** the commit history on the remote 'release_1' branch
 
-  ### Git Cherrypick (Pick commit from one branch and apply to another branch)
+### Git Cherrypick (Pick commit from one branch and apply to another branch)
   
     - To commit (A123456B) from 'feature_1' to 'main' branch:
   
