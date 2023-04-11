@@ -79,13 +79,13 @@ To **Modify the comment of last commit and push into remote repo**
 
   - Modify the **last commit message**
   
-    Pull all the changes from Remote to local: `git pull`
+    a. Pull all the changes from Remote to local: `git pull`
   
-    Modify the comment of last commit : `git commit --amend -m "New Commit Message Here"`
+    b. Modify the comment of last commit : `git commit --amend -m "New Commit Message Here"`
   
-    Push the change Forcefully to remote branch : `git push --force origin <remote branch name>`
+    c. Push the change Forcefully to remote branch : `git push --force origin <remote branch name>`
   
-  - Modify (add a new file) to the last commit
+  - Modify **(add a new file) to the last commit**
   
     a. Add the file: `git add <filename>
   
