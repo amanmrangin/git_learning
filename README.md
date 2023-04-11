@@ -77,12 +77,15 @@ To **Modify the comment of last commit and push into remote repo**
 
 <span style="color:red"><strong>Extra Careful:</strong></span>  Assuming no local changes existing,  run the following commands
 
- - Pull all the changes from Remote to local
- `git pull`
- - Modify the comment of last commit
- `git commit --amend -m "New Commit Message Here"`
- - Push the change Forcefully to remote branch
- `git push --force origin <remote branch name>`
+  - Modify the **last commit message**
+    a. Pull all the changes from Remote to local: `git pull`
+    b. Modify the comment of last commit : `git commit --amend -m "New Commit Message Here"`
+    c. Push the change Forcefully to remote branch : `git push --force origin <remote branch name>`
+  
+  - Modify (add a new file) to the last commit
+    a. Add the file: `git add <filename>
+    b. Amend the last commit with **same message** :  `git commit --amend --no-edit`
+    c. Push the change Forcefully to remote branch : `git push --force origin <remote branch name>`
 
 ## Undo/Restore/Revert
 ***
