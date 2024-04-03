@@ -102,6 +102,15 @@ To **Undo most recent commit**
 
 `git reset HEAD~1`
 
+To **Remove/Undo/Revert the commit(s) on a branch**
+If a branch2 at remote GIT server has 5 commits in history in descedning order (commit-5, commit-4, commit-3, commit-2, commit-1), if developer wants to delete commit-5, commit-4 and move Head to commit-3, then do the following steps.
+
+
+    1. `git checkout branch2` -> Clone the Repo from remote server into local developer machine, and checkout branch2
+    2. `git reset HEAD~2`  -> Deletes lastest two commits (commit-5 and commit-4) from history and resets the HEAD at commit-3
+    3. `git push origin --force` -> Pushes the changes (two deletions) from local branch (branch2) to remote server because the history is changed and you want to overrite the remote branch with your updated branch. 
+
+
 To **Revert to specific commit**
 
 `git revert <SHACODE>`
