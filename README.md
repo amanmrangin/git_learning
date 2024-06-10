@@ -98,6 +98,21 @@ To **Modify the comment of last commit and push into remote repo**
 
 ## Undo/Restore/Revert
 ***
+To **Remove the unwanted commits from Remote brnach**
+
+Prepare local machine and workspace clean of local changes
+`git clean -d -i -f && git reset --har origin/<remote-branch-name>`
+
+`git pull && git status`
+
+In Local workspace, Reset the commit history to a specific commit which will remove all the commits after this SHA
+`git reset --hard <remove up to a specific commit>`
+
+Push all the changes fom local workspace to remote repo/branch forcebily
+`git push origin HEAD --force`
+
+
+***
 To **Undo most recent commit**
 
 `git reset HEAD~1`
