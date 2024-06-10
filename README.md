@@ -95,6 +95,15 @@ To **Modify the comment of last commit and push into remote repo**
     b. Amend the last commit with **same message** :  `git commit --amend --no-edit`
   
     c. Push the change Forcefully to remote branch : `git push --force origin <remote branch name>`
+## Undo/Restore/Revert
+***
+To **Reset a branch to specific commit (deleting all the commits occurred after this commit)**
+  1. Clean the local workspace and get the remote branch into local
+    `git clean -d -i -f && git reset --hard origin/<remote-branch-name> && git pull && git status`
+  2. Remove up to a specific commit using a commit’s hash
+    `git reset --hard <Commit-SHA-code>`
+  3. Push the local change to remote branch
+    `git push origin HEAD --force` 
 
 ## Undo/Restore/Revert
 ***
