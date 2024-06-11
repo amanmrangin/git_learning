@@ -101,7 +101,7 @@ To **Modify the comment of last commit and push into remote repo**
 To **Remove the unwanted commits from Remote brnach**
 
 Prepare local machine and workspace clean of local changes
-`git clean -d -i -f && git reset --har origin/<remote-branch-name>`
+`git clean -d -i -f && git reset --hard origin/<remote-branch-name>`
 
 `git pull && git status`
 
